@@ -363,7 +363,7 @@ p{
     background-color: #f2f2f2;
     border-radius: 1%;
     width: 49%;
-    height: 620px;
+    height: 600px;
     float: left;
     /* position: relative;  */
     /* Q)Is it necessary? .>No */
@@ -373,7 +373,7 @@ p{
     font-weight: 900;
     /* Q)Why it doesn't apply to form-input & Send? refer #397 #438 -> because it's attribute.*/
     text-align: center;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 .form-group1{
@@ -466,10 +466,10 @@ selector::after */
  .footer{
     /* border: 4px solid red; */
     width: 100%;
-    margin: 4em auto 0;
+    margin: 1.5em auto 0;
     background: url(../images/footer-img.jpg) no-repeat center;
     background-size: cover;
-    padding: 2em 0;
+    padding: 0.5em 0;
  }
 
  .footer-content{
@@ -485,7 +485,7 @@ selector::after */
     color: #ffffff;
     float: left;
     height: 250px;
-    margin: 1% ;
+    margin: 0 2% ;
     overflow: auto;
  }
 
@@ -504,9 +504,9 @@ selector::after */
     font-family: 'Raleway', sans-serif;
  }
 
-.search-box{
-    /* border: 1px dashed skyblue; */
-}
+/* .search-box{
+    border: 1px dashed skyblue;
+} */
 
 .search-box form input[type="text"] {
     font-family: 'Raleway', sans-serif;
@@ -529,7 +529,7 @@ form input[type="submit"] {
     background-color: #19100f;
     color: #ffffff;
     overflow: auto;
-    height: 6   0px;
+    height: 60px;
 }
 
 .social-widget{
