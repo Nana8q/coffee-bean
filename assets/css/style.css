@@ -42,7 +42,7 @@ p{
 /* header section 1 */
 
 .nav{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     overflow: auto;
     width: 85%;
     margin: auto;
@@ -81,7 +81,7 @@ p{
 /* banner section 2 */
 
 .banner{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     width: 100%;
     height: 600px;
     background: #eaeaea url(../images/banner-bg.jpg) no-repeat center;
@@ -129,7 +129,7 @@ p{
 
 /* ads1 section 3,ads2 section 7 */
 .ads{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     width: 85%;
     margin: 4em auto;
     overflow: auto;
@@ -227,7 +227,7 @@ p{
 
 /* Merchandise Section 4 */
 .merch{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     width: 85%;
     margin: 4em auto;
 }
@@ -263,7 +263,7 @@ p{
 }
 
 .merch-items{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 24.25%;  /* 残りが3%になるように */
     float: left;
     margin-right: 1%;
@@ -298,7 +298,7 @@ p{
 /* Discount Section 5 */
 
 .discount{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 85%;
     margin: auto;
     height: 350px;
@@ -347,7 +347,7 @@ p{
 
 /* Form Section 8 */
 .reservation{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     width: 85%;
     margin: auto;
 }
@@ -355,7 +355,7 @@ p{
 /* form　だけでもいいけど複数のformがあったらparentもいる */
 .reservation form{
     overflow: auto;
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
 }
 
 .form-group{
@@ -373,6 +373,7 @@ p{
     font-weight: 900;
     /* Q)Why it doesn't apply to form-input & Send? refer #397 #438 -> because it's attribute.*/
     text-align: center;
+    overflow: auto;
 }
 
 .form-group1{
@@ -436,7 +437,8 @@ p{
     margin: auto;
     padding: 1em;
     margin: 1em;
-    font-family: 'Raleway', sans-serif; /* Q) Why does this need to add? */
+    font-family: 'Raleway', sans-serif; 
+    /* Q) Why does this need to add? */
     font-weight: 900;
 }
 
@@ -462,7 +464,7 @@ selector::after */
  /* footer-1 Section 9 */
 
  .footer{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     width: 100%;
     margin: 4em auto 0;
     background: url(../images/footer-img.jpg) no-repeat center;
@@ -471,7 +473,7 @@ selector::after */
  }
 
  .footer-content{
-    border: 3px dashed yellow;
+    /* border: 3px dashed yellow; */
     width: 85%;
     margin: auto;
     overflow: auto;
@@ -479,7 +481,7 @@ selector::after */
  }
 
  .footer-widget{
-    border: 2px dashed blue;
+    /* border: 2px dashed blue; */
     color: #ffffff;
     float: left;
     height: 250px;
@@ -488,7 +490,7 @@ selector::after */
  }
 
  .footer-widget h3{
-    border: 2px dashed green;
+    /* border: 2px dashed green; */
     margin: 1em 0;
     text-transform: uppercase;
  }
@@ -503,11 +505,10 @@ selector::after */
  }
 
 .search-box{
-    border: 1px dashed skyblue;
-
+    /* border: 1px dashed skyblue; */
 }
 
-form input[type="text"] {
+.search-box form input[type="text"] {
     font-family: 'Raleway', sans-serif;
     padding: 1em;
     width: 65%;
@@ -528,21 +529,30 @@ form input[type="submit"] {
     background-color: #19100f;
     color: #ffffff;
     overflow: auto;
+    height: 6   0px;
 }
 
 .social-widget{
-    width: 33%;
+    /* border: 1px dashed blue; */
+    width: 33.3%;
     float: left;
     text-align: center;
+    padding: 1%;
+    height: 60px;
 }
 
 .social-widget img{
-    width: 5%;
+    width: 8%;
 }
-
 
 .social-widget a{
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
+}
+
+.social-widget p{
+    /* border: 1px dashed green; */
+    height: 100%;
+    padding: 1%;
 }
